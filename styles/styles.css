@@ -435,6 +435,7 @@ label:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+
 /* ##### traits ##### */
 .traits_list_block {
   display: flex;
@@ -719,6 +720,7 @@ label:focus {
   background-color: transparent;
 
   outline: none;
+  color: var(--btn_txt_cl);
 }
 .subscr-label > button {
   width: 200px;
