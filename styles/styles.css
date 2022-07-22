@@ -635,7 +635,7 @@ label:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* ----------------FOOTER---------------- */
+/* ##### footer ##### */
 
 .footer {
   padding: 60px 0;
@@ -692,6 +692,65 @@ label:focus {
 }
 .join-svg {
   color: white;
+}
+
+.subscription-footer {
+  margin-left: 93px;
+}
+.subscr-title {
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  color: var(--btn_txt_cl);
+}
+.subscr-label {
+  display: flex;
+}
+.subscr-input {
+  width: 358px;
+
+  padding-left: 16px;
+
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
+
+  outline: none;
+}
+.subscr-label > button {
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  padding-left: 29px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--btn_txt_cl);
+  background-color: #2196f3;
+}
+.subscr-label > button:hover {
+  color: var(--btn_txt_cl);
+  background-color: var(--btn_bg_darker_cl);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscr-label > button:focus {
+  color: #ffffff;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ----------------portfolio.html styles---------------- */
 
