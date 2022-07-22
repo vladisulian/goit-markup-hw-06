@@ -75,16 +75,35 @@
           <!-- ======###### modal js #######======= -->
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <img src="./images/cat.jpg" alt="cat" />
-              <p>Do you like a cat? :)</p>
-              <button class="cat-btn cat-btn-1">
-                <a href="https://cdn.fishki.net/upload/post/201311/25/1216398/740_263043p7p1il.jpg"
-                  >Yes</a
-                >
-              </button>
-              <button class="cat-btn cat-btn-2">
-                <a href="https://i.ytimg.com/vi/ly0-kftlhjQ/maxresdefault.jpg">no</a>
-              </button>
+              <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+              <form>
+                <label>
+                  <span class="input-name">Имя</span>
+                  <input type="text" name="username" class="input-bar" />
+                </label>
+                <label>
+                  <span class="input-name">Телефон</span>
+                  <input type="text" name="number" class="input-bar" />
+                </label>
+
+                <label>
+                  <span class="input-name">Почта</span>
+                  <input type="text" name="user-mail" class="input-bar" />
+                </label>
+                <label>
+                  <span class="input-name">Комментарий</span>
+                  <input type="text" name="comment" placeholder="Введите текст" class="comment" />
+                </label>
+                <label>
+                  <input type="checkbox" name="agree" />
+                  <span class="checkbox-text">Соглашаюсь с рассылкой и принимаю</span>
+                  <a href="#" class="checkbox-link">Условия договора</a>
+                </label>
+
+                <!-- checkbox -->
+                <button type="submit" class="submit-button">Отправить</button>
+              </form>
+
               <svg class="modal-close-button-svg svg" data-modal-close>
                 <use href="./images/exit-modal-button.svg"></use>
               </svg>
