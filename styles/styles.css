@@ -354,6 +354,10 @@ form {
   align-items: center;
   gap: 10px;
   max-width: 448px;
+  position: relative;
+}
+label {
+  position: relative;
 }
 .input-name {
   font-size: 12px;
@@ -362,6 +366,7 @@ form {
   padding-right: 100%;
   color: var(--undertittle_col);
 }
+
 .comment {
   width: 448px;
   height: 138px;
@@ -371,14 +376,6 @@ form {
   outline: none;
   margin-top: 4px;
 }
-.input-bar:focus,
-.input-bar:hover,
-.comment:hover,
-.comment:focus {
-  border-color: var(--accent_col);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 .input-bar {
   width: 448px;
   height: 40px;
@@ -387,6 +384,23 @@ form {
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+.modal-svg {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+
+  fill: currentColor;
+  width: 18px;
+  height: 18px;
+}
+.input-bar:focus,
+.input-bar:hover,
+.comment:hover,
+.comment:focus {
+  border-color: var(--accent_col);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-text {
