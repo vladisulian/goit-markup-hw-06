@@ -118,9 +118,12 @@
                 <!-- checkbox -->
                 <button type="submit" class="submit-button">Отправить</button>
               </form>
-              <svg class="modal-close-button-svg" data-modal-close>
-                <use href="./images/exit-modal-button.svg"></use>
-              </svg>
+              <button class="modal-close-button" data-modal-close>
+                <svg>
+                  <use href="./images/icon.svg#icon-close-button"></use>
+                </svg>
+                <!-- <img src="./images/exit-modal-button.svg" alt="close-button" data-modal-close /> -->
+              </button>
             </div>
           </div>
         </div>
@@ -502,11 +505,11 @@
           <p class="subscr-title">Подпишитесь на рассылку</p>
           <form>
             <label class="subscr-label">
-              <input type="email" name="subscr-email" placeholder="E-mail" class="subscr-input" />
+              <input type="email" name="subscr-email" placeholder="E-mail" />
               <button>
                 Подписаться
                 <svg class="subscr-svg">
-                  <use href="./images/icon.svg"></use>
+                  <use href="./images/icon.svg#icon-send"></use>
                 </svg>
               </button>
             </label>
