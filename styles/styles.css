@@ -469,16 +469,12 @@ label:focus {
 .label-form:hover .modal-svg {
   fill: var(--accent_col);
 }
-/* #### */
-/* .checkbox:focus {
-  background-color: var(--accent_col);
-} */
-.agree {
-  display: flex;
-  align-items: center;
-}
 
 /* checkbox */
+.checkbox-cont {
+  display: flex;
+  flex-direction: row-reverse;
+}
 .custom-checkbox {
   z-index: -1;
   opacity: 0;
