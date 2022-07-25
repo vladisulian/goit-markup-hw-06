@@ -780,9 +780,7 @@ label:focus {
 
   color: var(--btn_txt_cl);
 }
-.subscr-form{
-  
-}
+
 .subscr-label {
   display: flex;
   color: var(--btn_txt_cl);
