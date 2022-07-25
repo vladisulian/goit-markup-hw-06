@@ -109,13 +109,18 @@
                     class="comment"
                   ></textarea>
                 </label>
-                <label class="agree">
-                  <input type="checkbox" name="agree" required />
-                  <span class="checkbox-text"
-                    >Соглашаюсь с рассылкой и принимаю
-                    <a href="#" class="checkbox-link">Условия договора</a>
-                  </span>
+                <label class="checkbox-label">
+                  <input type="checkbox" class="custom-checkbox" id="checkbox" name="checkbox" />
+                  <label for="checkbox" class="checkbox-label">
+                    <p>Соглашаюсь с рассылкой и принимаю
+                      <a href="#" class="checkbox-link">Условия договора</a>
+
+                    </p>
+                  </label>
                 </label>
+                <!-- <input type="checkbox" name="agree" required class="checkbox" />
+                  <span class="checkbox-text">
+                  </span> -->
 
                 <!-- checkbox -->
                 <button type="submit" class="submit-button">Отправить</button>
