@@ -77,7 +77,7 @@
             <div class="modal">
               <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
               <form class="modal-form">
-                <label>
+                <label class="label-form">
                   <span class="input-name"> Имя </span>
                   <input type="text" name="username" class="input-bar" required minlength="3" />
                   <svg class="modal-svg">
@@ -106,13 +106,15 @@
                     cols="30"
                     rows="10"
                     placeholder="Введите текст"
-                    class="comment" 
+                    class="comment"
                   ></textarea>
                 </label>
-                <label>
-                  <input type="checkbox" name="agree" />
-                  <span class="checkbox-text">Соглашаюсь с рассылкой и принимаю</span>
-                  <a href="#" class="checkbox-link">Условия договора</a>
+                <label class="agree">
+                  <input type="checkbox" name="agree" required />
+                  <span class="checkbox-text"
+                    >Соглашаюсь с рассылкой и принимаю
+                    <a href="#" class="checkbox-link">Условия договора</a>
+                  </span>
                 </label>
 
                 <!-- checkbox -->
@@ -375,7 +377,7 @@
           </ul>
         </div>
       </section>
-      
+
       <!-- customers section -->
       <section class="section">
         <div class="container">
