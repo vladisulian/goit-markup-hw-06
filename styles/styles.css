@@ -355,6 +355,10 @@ address,
 .modal-close-button:focus {
   color: var(--accent_col);
 }
+.modal-close-button > svg {
+  width: 18px;
+  height: 18px;
+}
 
 .modal-title {
   font-size: 20px;
