@@ -356,11 +356,16 @@ address,
   height: 18px;
 
   transition-property: color;
-  transition-delay: 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-button > svg:hover,
+/* .modal-close-button > svg:hover,
 .modal-close-button > svg:focus {
+  color: var(--accent_col);
+} */
+
+.modal-close-button:hover,
+.modal-close-button:focus  {
   color: var(--accent_col);
 }
 

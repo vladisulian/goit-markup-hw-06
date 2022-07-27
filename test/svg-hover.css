@@ -347,17 +347,12 @@ address,
   border-radius: 50%;
 
   background-color: #ffffff;
-
-  /* transition-property: color;
-    transition-delay: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .modal-close-button > svg {
   width: 18px;
   height: 18px;
 
   transition-property: color;
-  transition-delay: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-button > svg:hover,
