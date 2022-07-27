@@ -332,9 +332,6 @@ address,
 .modal-close-button {
   position: absolute;
 
-  display: flex;
-  align-items: center;
-
   top: 8px;
   right: 8px;
 
@@ -381,7 +378,7 @@ address,
   text-align: start;
   align-items: center;
 
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .modal-svg {
@@ -398,9 +395,15 @@ address,
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-label {
+  margin-bottom: 10px;
+}
 .modal-label:focus-within .modal-svg,
 .modal-label:hover .modal-svg {
   color: var(--accent_col);
+}
+.modal-label-last {
+  margin-bottom: 20px;
 }
 
 label {
@@ -437,7 +440,6 @@ label {
   padding-left: 16px;
   padding-top: 12px;
   margin-top: 4px;
-  margin-bottom: 20px;
 
   outline: none;
   border-radius: 4px;
@@ -466,6 +468,8 @@ label {
 .checkbox-cont {
   display: flex;
   flex-direction: row-reverse;
+
+  margin-bottom: 30px;
 }
 .custom-checkbox {
   z-index: -1;
@@ -534,15 +538,10 @@ label {
 .custom-checkbox:disabled + label::before {
   background-color: #e9ecef;
 }
-.checkbox-label > p {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--calm_state_svg);
-}
 
 /* checkbox */
 
 .checkbox-text {
-  margin-left: 7px;
   line-height: calc(24 / 14);
 
   color: var(--contacts_col);
