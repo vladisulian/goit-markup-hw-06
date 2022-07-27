@@ -332,6 +332,9 @@ address,
 .modal-close-button {
   position: absolute;
 
+  display: flex;
+  align-items: center;
+
   top: 8px;
   right: 8px;
 
