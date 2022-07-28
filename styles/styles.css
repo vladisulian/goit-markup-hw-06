@@ -458,14 +458,6 @@ label {
 }
 
 /* #### */
-.label-form:focus-within .input,
-.label-form:hover .input {
-  border: 1px solid var(--accent_col);
-}
-.label-form:focus-within .modal-svg,
-.label-form:hover .modal-svg {
-  fill: var(--accent_col);
-}
 
 /* checkbox */
 .checkbox-cont {
